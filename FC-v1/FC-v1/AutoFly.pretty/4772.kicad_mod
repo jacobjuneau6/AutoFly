@@ -1,0 +1,162 @@
+(footprint "4772"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4c6afc5-29c8-4de7-b3af-04bf03ee06f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4772"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fc65535-943f-468c-895c-81d55a9af6ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "989f56ce-a0cc-4e30-8dec-3dec8876011c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "539fb69f-b16f-46de-b92a-daaa8cab6e98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.08 -10.16)
+		(end 5.08 7.62)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "39312e2f-1aac-4eff-ab25-0a316953dab1")
+	)
+	(fp_circle
+		(center -2.54 -7.62)
+		(end -2.54 -5.08)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d2c1427e-87b2-41e4-9fba-c4507c34e317")
+	)
+	(fp_circle
+		(center -2.54 5.08)
+		(end -2.54 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a85e81eb-2388-4a16-9da1-009f8d7bc942")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "78336344-5adc-40be-a5d0-5392e8f0a0cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 -7.62)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5635cd2b-1439-47c2-8ce2-71284292eb3f")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9aefe6f9-922c-48e4-9b29-24f521553d88")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c192c85e-9df3-4f37-9436-e6d185117cc3")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78ea721d-fcdf-4215-9c73-5006b8017072")
+	)
+	(pad "5" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c498488-5fea-4b03-baf2-2443342f37e9")
+	)
+	(pad "6" thru_hole circle
+		(at 2.54 5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58dfc547-ef95-48dd-b507-13dd37ac07fc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/symbols/pololu-4770-4771-4772-4773-models/breakout-for-jst-sh-style-connector-6-pin-male-side-entry.step"
+		(offset
+			(xyz 3.75 -6.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

@@ -1,0 +1,7 @@
+BMI160__SPI1
+	PA5   (SCK)  -> SCX
+	PA7   (MOSI) -> SDX
+	PA6   (MISO) -> SDA
+	PA4   (CS)   -> CS
+	3.3V         -> VDD
+	GND          -> GND
