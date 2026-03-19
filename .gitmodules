@@ -1,0 +1,4 @@
+[submodule "code/ardupilot"]
+	path = code/ardupilot
+	url = https://github.com/jacobjuneau6/ardupilot
+	branch = AutoFly
