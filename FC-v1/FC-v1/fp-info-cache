@@ -1,4 +1,4 @@
-27489701796897127
+27591782927804134
 0530470610
 MOLEX_530470610
 
@@ -49,6 +49,20 @@ GY-BMI160
 12
 12
 AutoFly
+HC
+
+
+0
+0
+0
+AutoFly
+HCBW
+
+
+0
+0
+0
+AutoFly
 ICM42688
 
 
@@ -60,8 +74,8 @@ Untitled
 
 
 0
-0
-0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826

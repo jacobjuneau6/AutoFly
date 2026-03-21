@@ -487,10 +487,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "exports/DXF/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FC-v1.step",
       "svg": "",
       "vrml": ""
     },
