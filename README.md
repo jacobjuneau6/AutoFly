@@ -1,2 +1,31 @@
 # AutoFly
-A cheap, light and, small autonomus drone with ~100g payload capacity
+A cheap, light and, small autonomus drone with ~100g payload capacity and ardupilot
+# Why
+I made AutoFly as a successor to a pevious autonomus quadcopter that was not able to fly due to low power budgeting. With bigger motors and a 4X larger battery it should fly perfectly. I have always liked autonomus drones for the simple fact that it focuses entirely on design and tuning compared to FPV drones where the pilot plays a cirtical role.
+# Assembly
+assembly photo
+# PCB
+pcb photo
+# External Wiring
+hand drawn
+# BOM
+| Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
+| --- | --- | --- | --- | --- | --- |
+| Custom PCB | hold all of the FC components | 1 | 12.50 |  | PCBWAY |
+| Alibaba Shipping Customs and tax | Alibaba Shipping Customs and tax | 1 | 15.45 |  | Alibaba |
+| Aliexpress shipping & tax | Aliexpress shipping & tax | 1 | 4.30 |  | Aliexpress |
+| Amazon Shipping & TAX | Amazon Shipping & TAX | 1 | 7.67 |  | Amazon |
+| M3 screws | hold down various components | 1 | 8.49 | https://www.amazon.com/Self-Tapping-Screws-Phillips-Carbon-Plastic/dp/B0BPM8J5F5 | Amazon |
+| Deans T connectors | battery connector | 1 | 1.75 | https://www.aliexpress.us/item/3256806681263722.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006867578474%7C_p_origin_prod%3A | Aliexpress |
+| 1mm pitch connectors | allows connecting standard drone peripherals to the FC | 1 | 13.22 | https://www.digikey.com/en/products/detail/pololu/4772/19529079 | Digikey |
+| APM2.5 power monitor | measures the power and current off the battery to enter failsafe mode when battery about to die | 1 | 9.99 | https://www.amazon.com/Pixhawk-BEC-Helicopter-Quadcopters-Accessories/dp/B0BCJQR3YN?th=1 | Amazon |
+| 3S lipo battery | powers the drone | 1 | 14.24 | https://www.amazon.com/OVONIC-Airplane-Quadcopter-Helicopter-Multi-Motor/dp/B077P73SDS?th=1 | Amazon |
+| Propellers | provides the motors a way to generate lift | 1 | 16.99 | https://www.amazon.com/uxcell-Propellers-Quadcopter-Airplane-Adapter/dp/B07QK5CXK8 | Amazon |
+| Power distribution board | sends power from the battery to all 4 escs | 1 | 4.51 | https://www.aliexpress.us/item/3256806649142265.html?mp=1 | Aliexpress |
+| 2205 2300kv brushless motors | allows drone to fly  | 1 | 8.61 | https://www.aliexpress.us/item/3256808432301575.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008618616327%7C_p_origin_prod%3A | Aliexpress |
+| BLHeli-s 20A ESCs | provides power and control to the motor | 1 | 29.61 | https://www.aliexpress.us/item/2255800001568515.html?utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A4000187883267%7C_p_origin_prod%3A | Aliexpress |
+| HGLRC M100-5883 GPS and Compass | Provides location and heading data to the FC | 1 | 18.99 | https://www.amazon.com/HGLRC-M100-5883-GPS-Generation-Compatible/dp/B0CB5N8RQ8 | Amazon |
+| ESP32C3 super mini | Provides the transmitter and reciver | 1 | 9.99 | https://www.amazon.com/AITRIP-ESP32-C3-Development-Board-Bluetooth/dp/B0FBGDFPBQ?th=1 | Amazon |
+| ICM-42688 IMU |       Tells the drone its orientation and acceleration | 1 | 8.39 | https://www.alibaba.com/product-detail/AI-KSEN-Six-Axis-IMU-Module_1601663823996.html?selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=8b43f52ef39e4de496b68d31a66a839f | Alibaba |
+| GY-BMP280 | provides an altimeter | 1 | 0.43 | https://www.alibaba.com/product-detail/GY-BME280-5V-GY-BMP280-5V_1601291648398.html?selectedCarrierCode=SEMI_MANAGED_STANDARD%40%40STANDARD&priceId=194c7af6cc614cb9b190c4876a9feccd | Alibaba |
+| STM32H743VIT6 | Will be the brains of the drone | 1 | 11.80 | https://www.alibaba.com/product-detail/STM32H743VIT6-STM32H750VBT6-STM32-STM32H-STM32H7-Core_1601368312109.html | Alibaba |
