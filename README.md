@@ -3,11 +3,11 @@ A cheap, light and, small autonomus drone with ~100g payload capacity and ardupi
 # Why
 I made AutoFly as a successor to a pevious autonomus quadcopter that was not able to fly due to low power budgeting. With bigger motors and a 4X larger battery it should fly perfectly. I have always liked autonomus drones for the simple fact that it focuses entirely on design and tuning compared to FPV drones where the pilot plays a cirtical role.
 # Assembly
-assembly photo
+![assembly photo](Assembly.png)
 # PCB
-pcb photo
+![pcb photo](FC-v1.png)
 # External Wiring
-hand drawn
+![hand drawn](PXL_20260322_014310686.jpg)
 # BOM
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 | --- | --- | --- | --- | --- | --- |
